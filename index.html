@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="d-flex jc-center align-center">
+
+  <main class="main-container">
+    <section class="pricing">
+      <h1 class="text-center">Our Pricing</h1>
+      <div class="pricing__toggle">
+        <div class="d-flex align-center jc-around">
+          <div>
+            <span id="chkAnnually">Annually</span>
+          </div>
+          <div>
+            <label for="chkPricing">
+              <input type="checkbox" name="chkpricing" id="chkPricing">
+              <span class="ball"></span>
+            </label>
+          </div>
+          <div>
+            <span id="chkMonthly">Monthly</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cards align-center">
+      <div class="card__item">
+        <div class="text-center">
+          <p class="card__item--plan">Basic</p>
+          <div class="d-flex align-center jc-center">
+            <span class="card__item--icon">&dollar;</span>
+            <span class="card__item--price" id="basic"> 19.99</span>
+          </div>
+          <ul class="card__item--benefits">
+            <li>500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="card__item bg-purple">
+        <div class="text-center">
+          <p class="card__item--plan">Professional</p>
+          <div class="d-flex align-center jc-center">
+            <span class="card__item--icon">&dollar;</span>
+            <span class="card__item--price" id="professional">24.99</span>
+          </div>
+          <ul class="card__item--benefits">
+            <li>1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <a href="#" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="card__item">
+        <div class="text-center">
+          <p class="card__item--plan">Master</p>
+          <div class="d-flex align-center jc-center">
+            <span class="card__item--icon">&dollar;</span>
+            <span class="card__item--price" id="master"> 39.99</span>
+          </div>
+          <ul class="card__item--benefits">
+            <li>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://mrubi.vercel.app/" target="_blank">Marcos Rubí</a>.
+    </div>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
